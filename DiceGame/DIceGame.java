@@ -3,7 +3,7 @@ class DiceGame {
     Player p1;
     Player p2;
     public void startGame() {
-        Player p1 = new Player("js");
+        Player p1 = new Player("MJ");
         Player p2 = new Player("HB");
         p1.play();
         p2.play();
