@@ -1,4 +1,5 @@
 package com.sd.DiceGame;
+import com.sd.DiceGame.*;
 public class Player {
     String name;
     private int num=0;

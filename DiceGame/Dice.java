@@ -1,4 +1,5 @@
 package com.sd.DiceGame;
+import com.sd.DiceGame.*;
 class Dice {
     private int number = 0;
     public void roll() {  
