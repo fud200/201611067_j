@@ -1,4 +1,4 @@
-package com.sd.rectangle;
+package com.sd.ch8;
 class Selection{
   public void select(Rectangle r){
     r.setSelected(true);
