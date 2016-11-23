@@ -1,4 +1,4 @@
-package com.sd.inhrt;
+package com.sd.ch8;
 
 public class Rectangle {
 	protected double length;
