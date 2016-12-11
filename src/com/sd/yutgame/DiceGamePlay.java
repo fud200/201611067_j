@@ -2,12 +2,12 @@ package com.sd.yutgame;
 import java.awt.GridLayout;
 import java.awt.event.*;
 import javax.swing.*;
-public class DiceGameGUI extends JFrame implements ActionListener {
+public class DiceGamePlay extends JFrame implements ActionListener {
 	JPanel jp = new JPanel(new GridLayout(3,4));
 	JLabel l1, l2, ll, lr;
 	JTextField p1, p2, rs, winner;
 	JButton start, clear;
-	public DiceGameGUI() {
+	public DiceGamePlay() {
 		setTitle("Dice game");
 		getContentPane().add(jp);
 		
@@ -66,7 +66,7 @@ public class DiceGameGUI extends JFrame implements ActionListener {
 	}
 	
 	public static void main(String[] args) {
-		DiceGameGUI dgg = new DiceGameGUI();
+		DiceGamePlay dgg = new DiceGamePlay();
 		dgg.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		dgg.pack();
 		dgg.setVisible(true);

@@ -1,7 +1,7 @@
 package com.sd.yutgame;
 import java.awt.event.*;
 import javax.swing.*;
-public class YutGameGUI extends DiceGameGUI {
+public class YutGamePlay extends DiceGamePlay {
 	public void actionPerformed(ActionEvent e) {
 		JButton btn = (JButton)e.getSource();
 		if (btn == start) {
@@ -29,7 +29,7 @@ public class YutGameGUI extends DiceGameGUI {
 	}
 	
 	public static void main(String[] args) {
-		YutGameGUI ygg = new YutGameGUI();
+		YutGamePlay ygg = new YutGamePlay();
 		ygg.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		ygg.pack();
 		ygg.setVisible(true);
